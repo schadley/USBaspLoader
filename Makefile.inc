@@ -38,7 +38,7 @@ DANGEROUS=0
 # PROGRAMMER contains AVRDUDE options to address your programmer
 # PROGRAMMER = -c pony-stk200
 # PROGRAMMER = -c usbasp
-PROGRAMMER = -c usbtiny
+PROGRAMMER = -c avrisp
 
 #  since USBaspLoader supports HAVE_BLB11_SOFTW_LOCKBIT...
 LOCKOPT = -U lock:w:0x3f:m
